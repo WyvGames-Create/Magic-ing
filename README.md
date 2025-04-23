@@ -8,7 +8,7 @@ We are making (attempting to make) a simple dungeon-runner, rogue-lite based aro
 [What did we use?](#tools)
 
 ## Dev Log:
-Apr. 22, 2025 - Got Github and Unity up and running, we can start planning our project before doing any hard coding
+- Apr. 22, 2025 - Got Github and Unity up and running, we can start planning our project before doing any hard coding
 
 ## Here's the Team:
 * WyvernSight (Game Dev)
