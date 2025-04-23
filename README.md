@@ -7,14 +7,14 @@
 [Who did all of this?](#heres-the-team) \
 [What did we use?](#tools)
 
-### Dev Log:
+## Dev Log:
 Apr. 22, 2025 - Got Github and Unity up and running, we can start planning our project before doing any hard coding
 
-### Here's the Team:
+## Here's the Team:
 * WyvernSight (Game Dev)
 * JasonTrollz (Game Dev)
 * HiThereBuddies (Game Dev)
 * Jinni (Artist)
 
-### Tools:
+## Tools:
 * Unity 6.0
