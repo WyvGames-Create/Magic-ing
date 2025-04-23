@@ -5,7 +5,7 @@
 ## Content
 [Dev Log](#dev-log) \
 [Who did all of this?](#heres-the-team) \
-[What did we use?](#tools) \
+[What did we use?](#tools)
 
 ### Dev Log:
 Apr. 22, 2025 - Got Github and Unity up and running, we can start planning our project before doing any hard coding
