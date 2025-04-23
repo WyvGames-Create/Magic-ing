@@ -1,6 +1,6 @@
 # Magic-ing (Tentative Title)
 
-## We are making (attempting to make) a simple dungeon-runner, rogue-lite based around the concept of ___MAGIC___
+We are making (attempting to make) a simple dungeon-runner, rogue-lite based around the concept of ___MAGIC___
 
 ## Content
 [Dev Log](#dev-log) \
