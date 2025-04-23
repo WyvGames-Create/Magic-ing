@@ -2,5 +2,8 @@
 
 ## We are making (attempting to make) a simple dungeon-runner, rogue-lite based around the concept of ___MAGIC___
 
+## Content
+Dev Log [Link Text](#dev-log)
+
 ### Dev Log:
 Apr. 22, 2025 - Got Github and Unity up and running, we can start planning our project before doing any hard coding
