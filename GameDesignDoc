@@ -1,0 +1,28 @@
+What is Core Gamemplay Looking like?
+  The gameplay is centered around running through a dungeon/world that is procedurally generated with combinations of elements and movesets that can vary the player's gameplay.
+
+What is the element system?
+  The element system consists of 4 base elements: [Fire], [Water], [Wind], [Earth]. Within the elements, they have special mechanics tied to each element, what each element does is currently TBD.
+  Tentatively, the player will start with the fire element.
+  A player is able to hold up to 2 elements per run, thus giving them the ability to mutate elements to achieve.
+  Of the 4 elements, upon acquiring a second element and entering a special room, you are able to combine the two elements to mutate them. These mutations will combine the mechanic of each element.  
+  Elements will drop from bosses and can be purchased in a shop area from merchants in bottles o' elements.
+
+What is the move system?
+  In combination with the element system, we have moves that will be able to change the attack and gameplay of the player.
+  Moves are able to be obtained through room rewards, shop, and boss drops.
+  Moves and elements can go hand-in-hand depending on the type of move (multi-hit, high base dmg, etc) and the mechanic/effect of the element.
+  There will be a selection of special moves that will have a low chance to spawn in shop and low chance to drop from bosses. These moves are more specifically tailored to the element they are compatible with.
+
+How is level design/boss design going to work?
+  The level/world design will be procedurally generated based on the randomly selected element of the world.
+  The boss of the world will be of that element and will drop that element when defeated.
+  This world generation will allow us to insert mechanics of elements to go against the player, along with vary base enemies based on elements.
+  There will be 4 worlds based on the element selected, with a pending 5th "Big Boss" world where elements are mixed.
+  The first world up to the defeat of the first boss will be scripted to introduce the players to the mechanics of the game, afterwards, it will be a randomly selected elemental world generation with no repetitions.
+
+What's the Starting Area looking like?
+  Once the player has obtained an element, that element will be able to be selected at an altar before the dungeon run.
+  Upon upgrading this altar, players can the option of selecting two elements to start the run with instead of just one.
+  
+  In the same sense, moves (aside from special moves) that the player has encountered will be recorded on a lectern, and this lectern will operate similarly to the element altar.
