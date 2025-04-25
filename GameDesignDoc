@@ -19,10 +19,10 @@ How is level design/boss design going to work?
   The boss of the world will be of that element and will drop that element when defeated.
   This world generation will allow us to insert mechanics of elements to go against the player, along with vary base enemies based on elements.
   There will be 4 worlds based on the element selected, with a pending 5th "Big Boss" world where elements are mixed.
-  The first world up to the defeat of the first boss will be scripted to introduce the players to the mechanics of the game, afterwards, it will be a randomly selected elemental world generation with no repetitions.
+  The first world, up to the defeat of the first boss, will be scripted to introduce the players to the mechanics of the game, afterwards, it will be a randomly selected elemental world generation with no repetitions.
 
 What's the Starting Area looking like?
-  Once the player has obtained an element, that element will be able to be selected at an altar before the dungeon run.
+  Once the player has obtained an element, that element will be added as an unlockable option to the altar. The element can then be unlocked through the acquired dungeon currency to enable the player to start with that element.
   Upon upgrading this altar, players can the option of selecting two elements to start the run with instead of just one.
   
   In the same sense, moves (aside from special moves) that the player has encountered will be recorded on a lectern, and this lectern will operate similarly to the element altar.
