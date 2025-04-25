@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BoxTrigger : MonoBehaviour
+public class ColliderTrigger : MonoBehaviour
 {
     public Canvas screenUI;
     public float fadeSpeed = 1;

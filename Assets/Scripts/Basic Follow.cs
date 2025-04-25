@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Follow_player : MonoBehaviour {
+public class BasicFollow : MonoBehaviour {
 
     public Transform player;
     public Vector3 locationOffset;
