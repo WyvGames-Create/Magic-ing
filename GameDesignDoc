@@ -22,7 +22,7 @@ How is level design/boss design going to work?
   The first world, up to the defeat of the first boss, will be scripted to introduce the players to the mechanics of the game, afterwards, it will be a randomly selected elemental world generation with no repetitions.
 
 What's the Starting Area looking like?
-  Once the player has obtained an element, that element will be added as an unlockable option to the altar. The element can then be unlocked through the acquired dungeon currency to enable the player to start with that element.
+  Bosses will drop elemental essences, and the corresponding element will be added as an unlockable option to the altar. The elemental essence can be refined to enable the player to start with that element.
   Upon upgrading this altar, players can the option of selecting two elements to start the run with instead of just one.
   
   In the same sense, moves (aside from special moves) that the player has encountered will be recorded on a lectern, and this lectern will operate similarly to the element altar.
