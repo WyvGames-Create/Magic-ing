@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 916460204093591411}
   - component: {fileID: 5915166614651732119}
   m_Layer: 3
-  m_Name: ProjectileCollider
+  m_Name: Collider
   m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,6 +154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   bounceCount: 0
+  timeLimit: 2
+  useDistanceLimit: 0
+  distanceLimit: 20
+  debugCollision: 0
 --- !u!1 &3830048896921322592
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +169,7 @@ GameObject:
   - component: {fileID: 8841080068627915896}
   - component: {fileID: 8392928528443284140}
   m_Layer: 3
-  m_Name: ProjectileSprite
+  m_Name: Sprite
   m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
