@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 885856413307431848}
   - component: {fileID: 6901167624402795394}
-  - component: {fileID: 1693412457512754371}
+  - component: {fileID: 1931914623429020987}
   m_Layer: 3
   m_Name: Projectile
   m_TagString: Projectile
@@ -140,7 +140,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1693412457512754371
+--- !u!114 &1931914623429020987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,14 +149,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2842817595009694395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5e64c31fab56742bf392a31dfb15db, type: 3}
+  m_Script: {fileID: 11500000, guid: 4afdb2593e5226f408076fe90ae587cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  bounceCount: 0
-  timeLimit: 2
-  useDistanceLimit: 0
-  distanceLimit: 20
+  element: {fileID: 0}
+  form: {fileID: 0}
+  debugStats: 0
   debugCollision: 0
 --- !u!1 &3830048896921322592
 GameObject:

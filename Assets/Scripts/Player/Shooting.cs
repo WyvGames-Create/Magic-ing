@@ -3,11 +3,11 @@ using UnityEngine.InputSystem;
 
 public class Shooting : MonoBehaviour
 {
-    // public Transform shootPosition;
-    public GameObject projectile;
+    // public GameObject projectile;
+    public SpellManagerSO spellBook;
     public Transform projectileTransform;
-    public int projectileCount;
-    public float coneRadius;
+    public int projectileCount = 3;
+    public float coneRadius = 30f;
 
     private Camera _mainCamera;
     private PlayerInput _playerInput;
@@ -32,22 +32,14 @@ public class Shooting : MonoBehaviour
 
         // Get Input
         if (_playerInput.actions["Primary Fire"].WasPressedThisFrame()) {
-            Shoot();
+            spellBook.CastSpell("Fire", "Ball", projectileTransform.position, Util.FacingDirection(_direction));
         }
         if (_playerInput.actions["Secondary Fire"].WasPressedThisFrame()) {
             ShootCone(projectileCount, coneRadius);
         }
     }
 
-    void Shoot()
-    {   
-        // Instantiate the projectile
-        GameObject projectileObj = Instantiate(projectile, projectileTransform.position, Util.FacingDirection(_direction));
-        // Set the bounceCount to 2 by getting the script component of the object
-        projectileObj.GetComponent<Projectile>().bounceCount = 2;
-    }
-
-    void ShootCone(int projectileCount, float coneRadius)
+    public void ShootCone(int projectileCount, float coneRadius)
     {
         // Split cone into 2 parts, with 0 at its center
         int split = projectileCount/2;
@@ -58,10 +50,12 @@ public class Shooting : MonoBehaviour
         {
             // offset of Projectile ; Math is different depending on if the Count is Even or Odd
             float offset = (projectileCount % 2 == 0) ? degree * (i + 0.5f): degree * i;
-            // Instantiate the projectile
-            GameObject projectileObj = Instantiate(projectile, projectileTransform.position, Util.FacingDirection(_direction, offset));
-            // Set the speed to 20 by getting the script component of the object
-            projectileObj.GetComponent<Projectile>().speed = 20;
+            spellBook.CastSpell("Water", "Bolt", projectileTransform.position, Util.FacingDirection(_direction, offset));
         }
     }
+
+    // private GameObject Shoot(GameObject projectile, float rotationOffset = 0)
+    // {
+    //     return Instantiate(projectile, projectileTransform.position, Util.FacingDirection(_direction, rotationOffset));
+    // }
 }

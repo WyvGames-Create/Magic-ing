@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964146694ebce814fafc53db671302ee, type: 3}
+  m_Name: WaterBall
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 31e1f1431a0f59b4380b928257899ba3, type: 2}
+  form: {fileID: 11400000, guid: 227cfa5ec8c756b4e9cdc6de106969d4, type: 2}
+  prefab: {fileID: 3878997481406033615, guid: 24aa9e78f66a7dc40aa29f538ca4c47a, type: 3}
